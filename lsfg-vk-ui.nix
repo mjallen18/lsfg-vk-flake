@@ -12,13 +12,13 @@
 
 rustPlatform.buildRustPackage {
   pname = "lsfg-vk-ui";
-  version = "0.9.0-2025-07-26-3c77bad";
+  version = "0.9.0";
 
   src = fetchFromGitHub {
     owner = "PancakeTAS";
     repo = "lsfg-vk";
-    rev = "3c77bad7941e2699a797b2741b64b8d907118bb6";
-    hash = "sha256-ZAtTzdSx81NK2ABSEIDOeYUgJDH4ROMApDSlg8U140k=";
+    rev = "v0.9.0";
+    hash = "sha256-88baJynBxJ0M4Ia0GVngvDs91bbxnK2U3fPSGR3KIk4=";
   };
   
   cargoHash = "sha256-1/3CTCXTqSfb/xtx/Q1whaHPeQ0fxu0Zg2sVJPxdcK0=";
